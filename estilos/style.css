@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    background-color: #5F2C82;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+}
+
+.imagemum {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 25vh;
+
+}
+
+.imagemdois {
+    display: none;
+}
+
+.login {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.texto {
+    padding-top: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.icon {
+    border: 3px solid #5F2C82;
+    background-color: #5F2C82;
+    border-radius: 7px;
+    border-bottom: 1px solid #5F2C82;
+
+}
+
+svg {
+    padding-right: 10px;
+}
+
+#es {
+    width: 180px;
+    border-radius: 5px;
+    background-color: #94CFCD;
+    border: none;
+    padding: 6px 2px;
+    font-size: 1em;
+}
+
+.entrar {
+    background-color: #49A09D;
+    width: 250px;
+    padding: 8px 2px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+}
+
+.entrar:hover {
+    background-color: #2D6462;
+
+}
+
+.essenha {
+    width: 250px;
+    padding: 8px 2px;
+    border: 2px solid #49a09d9c;
+    border-radius: 5px;
+    color: #2D6462;
+    font-size: 1em;
+}
+
+.essenha:hover {
+    background-color: rgb(118, 204, 233);
+}

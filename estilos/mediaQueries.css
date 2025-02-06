@@ -1,0 +1,59 @@
+@media screen and (min-width:768px) /* Tela Tablet */ 
+{
+    body{
+        background-image: linear-gradient(#5C2B7E , #4B969A);
+    }
+    main{
+        width: 80%;
+        height: 35vh;
+        display: flex;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.349);
+    }
+    .imagemum{
+        width: 25vw;
+        height: 35vh;
+        border-radius: 20px 0 0 20px;
+
+    }
+    .imagemdois{
+        display: none;
+    }
+    #es{
+        width: 90%;
+    }
+    .entrar{
+        width: 100%;
+    }
+    .essenha{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width:992px) /* Tela Desktop */ 
+{
+    
+   main{
+    width: 950px;
+    height: 350px;
+    
+   } 
+   .imagemum{
+    display: none;
+   }
+
+   .imagemdois{
+    display: block;
+    width: 475px;
+    height: 350px;
+    border-radius:0 20px 20px 0;
+    }
+    h1{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .texto{
+        padding: 20px 0 ;
+        font-size: 1em;
+    }
+
+}
